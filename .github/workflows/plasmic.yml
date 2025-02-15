@@ -23,7 +23,7 @@ jobs:
       - id: node
         name: Setting up node v18...
         uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: "18"
       - id: cache
         name: Recovering cache...
